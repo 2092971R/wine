@@ -1,0 +1,17 @@
+This code was writen in the context of a Machine Learning exercise of my Masters course. 
+
+I am investigating a dataset with information about different wines and their chemical properties.
+The task was to apply both a supervised and unsupervised learning technique to it and try and extract information.
+I use a decision tree classifier and a K means clustering method, plus a genetic algorithm to determine the best 
+  attributes of the dataset to be using in both methods.
+
+The report produced is attached.
+
+The files contain the following code;
+
+introduction.py; overview statistics
+summary_stats.py; summary statistics
+supervised_learning.py; implementation of a decision tree classifier and the confusion maxtrix to present the results
+ga_supervised.py; genetic algorithm for determining the best parameters of the dataset to use in the decision tree
+unsupervised_learning.py; K means clustering implementation
+ga_unsupervised.py; genetic algorithm for determining the best attributes to use in the K means clustering
